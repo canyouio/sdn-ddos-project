@@ -1,0 +1,39 @@
+# Python 虚拟环境
+venv_ryu_py38/
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# 前端相关（如 node_modules、构建产物）
+sdn-ddos-frontend/node_modules/
+sdn-ddos-frontend/dist/
+sdn-ddos-frontend/.env
+sdn-ddos-frontend/.env.local
+sdn-ddos-frontend/.DS_Store
+
+# 通用忽略文件
+.gitignore
+.DS_Store
+*.log
+.idea/
+.vscode/
+*.swp
+*.swo
